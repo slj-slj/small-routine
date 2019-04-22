@@ -1,0 +1,58 @@
+<!--pages/my/my.wxml-->
+<!-- <import src="/template/my.wxml"/> -->
+<view class = "myTop">
+  <view class = "head">
+    <image src="/images/head.jpg"></image>
+  </view>
+  <view class = "myID">
+    <text class = "myName">你别皱眉</text>
+    <text class = "myModle"> 我的签名</text>
+  </view>
+  <view class = "back">
+  </view>
+</view>
+<view class = "myList">
+	<view class = "list">
+		<view class = "list_1">
+			<view class = "list_2"  bindtap="click">
+				<image  class="icon" src="/images/wenzhang.png"></image>
+				<view class = "list_3">我的发表</view> 
+			</view>
+		</view>
+	</view>
+		<view class = "list">
+		<view class = "list_1">
+			<view class = "list_2" >
+				<image  class="icon" src="/images/pifu.png"></image>
+				<view class = "list_3">我的服装</view> 
+			</view>
+			<view class = "list_2" bindtap='favorate'>
+				<image  class="icon" src="/images/like3.png"></image>
+				<view class = "list_3">我的收藏</view> 
+			</view>
+		</view>
+	</view>
+ 	<view class = "list">
+		<view class = "list_1">
+			<view class = "list_2" bindtap='about'>
+				<image  class="icon" src="/images/ours.png"></image>
+				<view class = "list_3">
+					帮助与反馈
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
+
+<!-- <checkbox-group bindchange="checkboxChange">
+  <label class="checkbox" wx:for="{{arr}}" wx:key="*this">
+    <checkbox value="test" />
+    {{item.value}}
+  </label>
+</checkbox-group>
+<button bindtap='push'>加载更多</button>
+<button bindtap='random'>随机排序</button>
+<template is="list1" data="{{arr1}}"/> -->
+<!-- <template is="list" data="{{list}}"/> -->
+
+

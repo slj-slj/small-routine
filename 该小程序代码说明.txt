@@ -1,3 +1,0 @@
-miniprogram-test-1\miniprogram\pages\logs 目录下的slj_logs名称的四个文档是我写的
-miniprogram-test-1\miniprogram\pages\nation 目录下的nation名称和abstrict名称的部分代码是我写的
-miniprogram-test-1\miniprogram\pages\slj_food 目录下的代码是我写的
